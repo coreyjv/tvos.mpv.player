@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavformat
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 58.11.101
+Requires:  libavcodec >= 58.17.100,  libswresample >= 3.0.101,  libavutil >= 56.13.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavformat -lm -lbz2 -lz -Wl,-framework,CoreFoundation -Wl,-framework,Security
+Cflags: -I${includedir}

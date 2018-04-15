@@ -1,0 +1,12 @@
+prefix=/Users/corey/dev/tvOSMediaPlayer/contrib/mpv-tvOS/thin/x86_64
+exec_prefix=/Users/corey/dev/tvOSMediaPlayer/contrib/mpv-tvOS/thin/x86_64
+libdir=/Users/corey/dev/tvOSMediaPlayer/contrib/mpv-tvOS/thin/x86_64/lib
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/mpv-tvOS/thin/x86_64/include
+
+Name: mpv
+Description: mpv media player client library
+Version: 1.100.0
+Requires:
+Libs: -L${libdir} -lmpv
+Libs.private: -liconv -lavfilter -lm -lavresample -lm -lswscale -lm -lpostproc -lm -lavformat -lm -lbz2 -lz -lavcodec -liconv -lm -lz -lswresample -lm -lavutil -lm -lavcodec -liconv -lm -lz -lswresample -lm -lavutil -lm -lavdevice -lm -lavfilter -lm -lavresample -lm -lswscale -lm -lpostproc -lm -lavformat -lm -lbz2 -lz -lavcodec -liconv -lm -lz -lswresample -lm -lavutil -lm -lm -lz 
+Cflags: -I${includedir}

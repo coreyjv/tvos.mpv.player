@@ -1,0 +1,14 @@
+prefix=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/arm64
+exec_prefix=${prefix}
+libdir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/arm64/lib
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/arm64/include
+
+Name: libpostproc
+Description: FFmpeg postprocessing library
+Version: 55.0.100
+Requires: libavutil >= 56.13.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lpostproc -lm
+Libs.private: 
+Cflags: -I${includedir}

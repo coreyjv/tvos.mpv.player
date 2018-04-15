@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavdevice
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.2.100
+Requires:  libavfilter >= 7.15.100,  libavresample >= 4.0.0,  libswscale >= 5.0.102,  libpostproc >= 55.0.100,  libavformat >= 58.11.101,  libavcodec >= 58.17.100,  libswresample >= 3.0.101,  libavutil >= 56.13.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavdevice -lm
+Cflags: -I${includedir}

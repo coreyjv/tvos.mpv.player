@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libswscale
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 5.0.102
+Requires:  libavutil >= 56.13.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lswscale -lm
+Cflags: -I${includedir}

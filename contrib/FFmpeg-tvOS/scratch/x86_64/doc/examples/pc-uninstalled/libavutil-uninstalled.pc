@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavutil
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.13.100
+Requires: 
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavutil -pthread -lm -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
+Cflags: -I${includedir}

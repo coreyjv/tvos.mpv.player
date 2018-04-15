@@ -1,0 +1,14 @@
+prefix=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/x86_64
+exec_prefix=${prefix}
+libdir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/x86_64/lib
+includedir=/Users/corey/dev/tvOSMediaPlayer/contrib/FFmpeg-tvOS/thin/x86_64/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 4.0.0
+Requires: libavutil >= 56.13.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavresample -lm
+Libs.private: 
+Cflags: -I${includedir}

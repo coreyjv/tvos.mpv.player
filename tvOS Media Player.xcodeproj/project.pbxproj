@@ -7,19 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488247D20561BA2001B8954 /* build-ffmpeg-tvOS.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0488ED7320561B36001B8954 /* build-ffmpeg-tvOS.sh */; };
+		0488247E20561BA2001B8954 /* build-mpv-tvOS.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0488ED7420561B36001B8954 /* build-mpv-tvOS.sh */; };
 		049C6895204E2EBB00303B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C6894204E2EBB00303B4F /* AppDelegate.swift */; };
-		049C6897204E2EBB00303B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C6896204E2EBB00303B4F /* ViewController.swift */; };
 		049C689A204E2EBB00303B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049C6898204E2EBB00303B4F /* Main.storyboard */; };
 		049C689C204E2EBB00303B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049C689B204E2EBB00303B4F /* Assets.xcassets */; };
+		049C68AB204E306E00303B4F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A4204E306E00303B4F /* AudioToolbox.framework */; };
+		049C68AC204E306E00303B4F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A5204E306E00303B4F /* libz.tbd */; };
+		049C68AD204E306E00303B4F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A6204E306E00303B4F /* VideoToolbox.framework */; };
+		049C68AE204E306E00303B4F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A7204E306E00303B4F /* libiconv.tbd */; };
+		049C68AF204E306E00303B4F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A8204E306E00303B4F /* AVFoundation.framework */; };
+		049C68B0204E306E00303B4F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68A9204E306E00303B4F /* CoreMedia.framework */; };
+		049C68B1204E306E00303B4F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 049C68AA204E306E00303B4F /* libbz2.tbd */; };
+		049C68D8204E316700303B4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C68D7204E316700303B4F /* ViewController.m */; };
+		04A2F8152082FD1400C15C4C /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F80C2082FD1400C15C4C /* libavcodec.a */; };
+		04A2F8162082FD1400C15C4C /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F80D2082FD1400C15C4C /* libavfilter.a */; };
+		04A2F8172082FD1400C15C4C /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F80E2082FD1400C15C4C /* libavdevice.a */; };
+		04A2F8182082FD1400C15C4C /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F80F2082FD1400C15C4C /* libavformat.a */; };
+		04A2F8192082FD1400C15C4C /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8102082FD1400C15C4C /* libswresample.a */; };
+		04A2F81A2082FD1400C15C4C /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8112082FD1400C15C4C /* libavresample.a */; };
+		04A2F81B2082FD1400C15C4C /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8122082FD1400C15C4C /* libswscale.a */; };
+		04A2F81C2082FD1400C15C4C /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8132082FD1400C15C4C /* libpostproc.a */; };
+		04A2F81D2082FD1400C15C4C /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8142082FD1400C15C4C /* libavutil.a */; };
+		04A2F8312083026500C15C4C /* libmpv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2F8302083026500C15C4C /* libmpv.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0488ED7320561B36001B8954 /* build-ffmpeg-tvOS.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-ffmpeg-tvOS.sh"; sourceTree = "<group>"; };
+		0488ED7420561B36001B8954 /* build-mpv-tvOS.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-mpv-tvOS.sh"; sourceTree = "<group>"; };
 		049C6891204E2EBB00303B4F /* tvOS Media Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS Media Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049C6894204E2EBB00303B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049C6896204E2EBB00303B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		049C6899204E2EBB00303B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049C689B204E2EBB00303B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049C689D204E2EBB00303B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049C68A4204E306E00303B4F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		049C68A5204E306E00303B4F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		049C68A6204E306E00303B4F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		049C68A7204E306E00303B4F /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		049C68A8204E306E00303B4F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		049C68A9204E306E00303B4F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		049C68AA204E306E00303B4F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		049C68C3204E30AA00303B4F /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		049C68C4204E30AA00303B4F /* stream_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_cb.h; sourceTree = "<group>"; };
+		049C68C5204E30AA00303B4F /* qthelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = qthelper.hpp; sourceTree = "<group>"; };
+		049C68C6204E30AA00303B4F /* opengl_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opengl_cb.h; sourceTree = "<group>"; };
+		049C68D5204E316600303B4F /* tvOS Media Player-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tvOS Media Player-Bridging-Header.h"; sourceTree = "<group>"; };
+		049C68D6204E316700303B4F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049C68D7204E316700303B4F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A2F80C2082FD1400C15C4C /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		04A2F80D2082FD1400C15C4C /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
+		04A2F80E2082FD1400C15C4C /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		04A2F80F2082FD1400C15C4C /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		04A2F8102082FD1400C15C4C /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		04A2F8112082FD1400C15C4C /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavresample.a; sourceTree = "<group>"; };
+		04A2F8122082FD1400C15C4C /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		04A2F8132082FD1400C15C4C /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpostproc.a; sourceTree = "<group>"; };
+		04A2F8142082FD1400C15C4C /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		04A2F8302083026500C15C4C /* libmpv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmpv.a; path = libs/libmpv.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A2F8312083026500C15C4C /* libmpv.a in Frameworks */,
+				04A2F81A2082FD1400C15C4C /* libavresample.a in Frameworks */,
+				04A2F8172082FD1400C15C4C /* libavdevice.a in Frameworks */,
+				04A2F8162082FD1400C15C4C /* libavfilter.a in Frameworks */,
+				04A2F8182082FD1400C15C4C /* libavformat.a in Frameworks */,
+				049C68B1204E306E00303B4F /* libbz2.tbd in Frameworks */,
+				04A2F8192082FD1400C15C4C /* libswresample.a in Frameworks */,
+				04A2F81D2082FD1400C15C4C /* libavutil.a in Frameworks */,
+				049C68AE204E306E00303B4F /* libiconv.tbd in Frameworks */,
+				04A2F81C2082FD1400C15C4C /* libpostproc.a in Frameworks */,
+				049C68AC204E306E00303B4F /* libz.tbd in Frameworks */,
+				04A2F81B2082FD1400C15C4C /* libswscale.a in Frameworks */,
+				049C68B0204E306E00303B4F /* CoreMedia.framework in Frameworks */,
+				049C68AF204E306E00303B4F /* AVFoundation.framework in Frameworks */,
+				049C68AB204E306E00303B4F /* AudioToolbox.framework in Frameworks */,
+				049C68AD204E306E00303B4F /* VideoToolbox.framework in Frameworks */,
+				04A2F8152082FD1400C15C4C /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +97,12 @@
 		049C6888204E2EBB00303B4F = {
 			isa = PBXGroup;
 			children = (
-				049C6893204E2EBB00303B4F /* tvOS Media Player */,
+				049C68D9204E38FC00303B4F /* contrib */,
+				049C68C1204E30AA00303B4F /* include */,
+				049C68B2204E30AA00303B4F /* libs */,
+				049C6893204E2EBB00303B4F /* tvOSMediaPlayer */,
 				049C6892204E2EBB00303B4F /* Products */,
+				049C68A3204E306E00303B4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,16 +114,77 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		049C6893204E2EBB00303B4F /* tvOS Media Player */ = {
+		049C6893204E2EBB00303B4F /* tvOSMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				049C68D6204E316700303B4F /* ViewController.h */,
+				049C68D7204E316700303B4F /* ViewController.m */,
 				049C6894204E2EBB00303B4F /* AppDelegate.swift */,
-				049C6896204E2EBB00303B4F /* ViewController.swift */,
 				049C6898204E2EBB00303B4F /* Main.storyboard */,
 				049C689B204E2EBB00303B4F /* Assets.xcassets */,
 				049C689D204E2EBB00303B4F /* Info.plist */,
+				049C68D5204E316600303B4F /* tvOS Media Player-Bridging-Header.h */,
 			);
-			path = "tvOS Media Player";
+			path = tvOSMediaPlayer;
+			sourceTree = "<group>";
+		};
+		049C68A3204E306E00303B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A2F8302083026500C15C4C /* libmpv.a */,
+				049C68A4204E306E00303B4F /* AudioToolbox.framework */,
+				049C68A8204E306E00303B4F /* AVFoundation.framework */,
+				049C68A9204E306E00303B4F /* CoreMedia.framework */,
+				049C68AA204E306E00303B4F /* libbz2.tbd */,
+				049C68A7204E306E00303B4F /* libiconv.tbd */,
+				049C68A5204E306E00303B4F /* libz.tbd */,
+				049C68A6204E306E00303B4F /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		049C68B2204E30AA00303B4F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				04A2F80C2082FD1400C15C4C /* libavcodec.a */,
+				04A2F80E2082FD1400C15C4C /* libavdevice.a */,
+				04A2F80D2082FD1400C15C4C /* libavfilter.a */,
+				04A2F80F2082FD1400C15C4C /* libavformat.a */,
+				04A2F8112082FD1400C15C4C /* libavresample.a */,
+				04A2F8142082FD1400C15C4C /* libavutil.a */,
+				04A2F8132082FD1400C15C4C /* libpostproc.a */,
+				04A2F8102082FD1400C15C4C /* libswresample.a */,
+				04A2F8122082FD1400C15C4C /* libswscale.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		049C68C1204E30AA00303B4F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				049C68C2204E30AA00303B4F /* mpv */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		049C68C2204E30AA00303B4F /* mpv */ = {
+			isa = PBXGroup;
+			children = (
+				049C68C3204E30AA00303B4F /* client.h */,
+				049C68C4204E30AA00303B4F /* stream_cb.h */,
+				049C68C5204E30AA00303B4F /* qthelper.hpp */,
+				049C68C6204E30AA00303B4F /* opengl_cb.h */,
+			);
+			path = mpv;
+			sourceTree = "<group>";
+		};
+		049C68D9204E38FC00303B4F /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				0488ED7320561B36001B8954 /* build-ffmpeg-tvOS.sh */,
+				0488ED7420561B36001B8954 /* build-mpv-tvOS.sh */,
+			);
+			path = contrib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +219,7 @@
 				TargetAttributes = {
 					049C6890204E2EBB00303B4F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				049C689C204E2EBB00303B4F /* Assets.xcassets in Resources */,
+				0488247D20561BA2001B8954 /* build-ffmpeg-tvOS.sh in Resources */,
+				0488247E20561BA2001B8954 /* build-mpv-tvOS.sh in Resources */,
 				049C689A204E2EBB00303B4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049C6897204E2EBB00303B4F /* ViewController.swift in Sources */,
+				049C68D8204E316700303B4F /* ViewController.m in Sources */,
 				049C6895204E2EBB00303B4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,13 +390,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56826U88NE;
-				INFOPLIST_FILE = "tvOS Media Player/Info.plist";
+				INFOPLIST_FILE = tvOSMediaPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/contrib/FFmpeg-tvOS/lib",
+					"$(PROJECT_DIR)/contrib/mpv-tvOS/fat/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emby.tvOS-Media-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tvOSMediaPlayer/tvOS Media Player-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
@@ -277,13 +416,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56826U88NE;
-				INFOPLIST_FILE = "tvOS Media Player/Info.plist";
+				INFOPLIST_FILE = tvOSMediaPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+					"$(PROJECT_DIR)/contrib/FFmpeg-tvOS/lib",
+					"$(PROJECT_DIR)/contrib/mpv-tvOS/fat/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "emby.tvOS-Media-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tvOSMediaPlayer/tvOS Media Player-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
